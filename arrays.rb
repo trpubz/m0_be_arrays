@@ -26,12 +26,13 @@ p my_favorite_battingaverages[0] == 0.400
 # expect IndexError if accessing an index that doesn't exist when fetching
 begin
   raise IndexError
-    p my_favorite_battingaverages.fetch(100)
+    p my_favorite_battingaverages.fetch(100) # won't print
   rescue IndexError => e
-    p e.message
+    p e.message # will print IndexError
 end
 
 # expect nil if accessing an index that doesn't exist
-p my_favorite_battingaverages[100]
+p my_favorite_battingaverages[100] # => nil
 
-
+# Array.include? checks if an element is in the array much like python Array.contains()
+p pubins_family.include?("Sebass") # => true
