@@ -1,0 +1,6 @@
+- How confident do you feel with the content on Arrays so far?
+    - I feel good coming from python, just need to familiarize with ruby syntax
+- Is there any additional learning you need or want to do before moving to the next lesson?
+    - ruby array slicing and ranges are slightly unique and the shovel operator `<<` is unique as well
+- What questions do you have about Arrays?
+    - I want to understand code blocks better since they are used on arrays predominately `arr.each {|a| print a -= 10, " "}`
